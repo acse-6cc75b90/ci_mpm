@@ -9,10 +9,10 @@ on:
    pull_request:
      branches:
        - master
-  workflow_dispatch:
-    inputs:
-      tags:
-        description: 'Run this workflow'
+   workflow_dispatch:
+     inputs:
+       tags:
+         description: 'Run this workflow'
 
 jobs:
   flake8:
